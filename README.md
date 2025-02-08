@@ -15,5 +15,8 @@ Visit the [Ubuntu Downloads page](https://ubuntu.com/download/desktop) and downl
   * **Type:** Linux
   * **Version:** Ubuntu (64-bit)
   * Click **Next**
- 
+ <img src="docs/create_vm.png">
   
+## 3. Allocate Resources
+- **Memory:** Allocate at least **4 GB (4096 MB)** for a smoother experience.
+- **Processor:** Set **2** or more CPUs for better performance (depending on your system). 
