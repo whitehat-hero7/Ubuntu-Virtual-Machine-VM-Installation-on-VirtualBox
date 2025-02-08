@@ -78,14 +78,33 @@ Click **Ok** to save.
 - **Installation Type:** Choose **Erase disk and install Ubuntu** (only within the VM).
 - **Create User Account:** Set your username, password, and computer name.
 - **Installation:** Click **Install** and wait for the process to be completed. 
-<img src="docs/ubuntu_installation.png" width="400" >
+<img src="docs/ready_install.png" width="400" >
 
+- **Installation complete:** Click **Restart now**
+<img src="docs/installation_complete.png" width="400" >
 
+## 9. Remove Installation Media
+**After installation:**
+- Go to **Devices** > **Optical Drives**, uncheck the ISO file to eject it.
+- Restart the VM.
+<img src="docs/remove_media.png" width="400" >
 
+**Note:** Removing the installation media after installing Ubuntu is essential to ensure that the virtual machine boots from the installed operating system instead of re-running the installation process.
 
+## 10. Post-Installation Steps
+Open the **Terminal** and run the following two commands.
+  
+- **Update the system:**
 
+*sudo apt update && sudo apt upgrade -y*
 
+- **Install VirtualBox Guest Additions for better performance:**
 
+*sudo apt install -y virtualbox-guest-utils*
+
+Congratulations on successfully installing Ubuntu on VirtualBox! With your VM up and running, you now have a versatile and isolated environment to explore Linux, test security tools, and build your cybersecurity skills. 
+
+**Note:** Remember to take snapshots regularly to preserve your setup before making major changes. 
 
 
 
