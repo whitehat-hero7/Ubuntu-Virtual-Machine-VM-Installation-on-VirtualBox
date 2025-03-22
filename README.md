@@ -1,4 +1,4 @@
-# Ubuntu (Virtual Machine) Installation on VirtualBox
+# Ubuntu Virtual Machine (VM) Installation on VirtualBox
 ## Objective
 This guide provides step-by-step instructions for installing an Ubuntu virtual machine (VM) on VirtualBox. Whether you're setting up a VM for development, testing, or cybersecurity training, this walkthrough will ensure a smooth and successful installation process. By the end of this guide, you'll have a fully functional Ubuntu VM ready for use within VirtualBox. Let's get started!
 
